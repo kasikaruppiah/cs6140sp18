@@ -31,8 +31,8 @@ if __name__ == '__main__':
                                                     0.0000001)
     diabetesLogisticRegression.validate()
 
-    # multivariateBernoulli = MultivariateBernoulli()
-    # multivariateBernoulli.run('train.data', 'train.label', 'test.data',
-    #                           'test.label')
-    # multinomial = Multinomial()
-    # multinomial.run('train.data', 'train.label', 'test.data', 'test.label')
+    multivariateBernoulli = MultivariateBernoulli()
+    multivariateBernoulli.run('train.data', 'train.label', 'test.data',
+                              'test.label')
+    multinomial = Multinomial()
+    multinomial.run('train.data', 'train.label', 'test.data', 'test.label')

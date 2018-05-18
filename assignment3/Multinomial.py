@@ -126,6 +126,7 @@ class Multinomial:
             100, 500, 1000, 2500, 5000, 7500, 10000, 12500, 25000, 50000,
             len(sortedWords)
         ]
+        vocabularySize = [50]
 
         print("Size\tAccuracy\tPrecision\tRecall")
         for size in vocabularySize:
